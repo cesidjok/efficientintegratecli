@@ -1,1 +1,1 @@
-const initializeArrayWithValues = (n, value = 0) => Array(n).fill(value);
+const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
