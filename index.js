@@ -1,1 +1,3 @@
-const isEven = (num) => num % 2 === 0;
+const lcmRecursive = (a, b) => {
+  return (a * b) / gcdRecursive(a, b);
+};
